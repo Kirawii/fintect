@@ -1,0 +1,82 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Siddiqi(1997)]{siddiqi1997statistical}
+SIDDIQI N.
+\newblock Credit risk scorecards: Developing and implementing intelligent credit scoring\allowbreak[M].
+\newblock John Wiley \& Sons, 1997.
+
+\bibitem[Altman(1968)]{altman1968financial}
+ALTMAN E~I.
+\newblock Financial ratios, discriminant analysis and the prediction of corporate bankruptcy\allowbreak[J].
+\newblock The Journal of Finance, 1968, 23\allowbreak (4): 589-609.
+
+\bibitem[Hosmer et~al.(2013)Hosmer, Lemeshow, and Sturdivant]{hosmer2013applied}
+HOSMER D~W, Jr., LEMESHOW S, STURDIVANT R~X.
+\newblock Applied logistic regression\allowbreak[M].
+\newblock John Wiley \& Sons, 2013.
+
+\bibitem[Cortes et~al.(1995)Cortes and Vapnik]{cortes1995support}
+CORTES C, VAPNIK V.
+\newblock Support-vector networks\allowbreak[J].
+\newblock Machine Learning, 1995, 20\allowbreak (3): 273-297.
+
+\bibitem[West(2000)]{west2000neural}
+WEST D.
+\newblock Neural network credit scoring models\allowbreak[J].
+\newblock Computers \& Operations Research, 2000, 27\allowbreak (11-12): 1131-1152.
+
+\bibitem[Breiman(2001)]{breiman2001random}
+BREIMAN L.
+\newblock Random forests\allowbreak[J].
+\newblock Machine Learning, 2001, 45\allowbreak (1): 5-32.
+
+\bibitem[Friedman(2001)]{friedman2001greedy}
+FRIEDMAN J~H.
+\newblock Greedy function approximation: a gradient boosting machine\allowbreak[J].
+\newblock Annals of Statistics, 2001, 29\allowbreak (5): 1189-1232.
+
+\bibitem[Chen et~al.(2016)Chen and Guestrin]{chen2016xgboost}
+CHEN T, GUESTRIN C.
+\newblock Xgboost: A scalable tree boosting system\allowbreak[C]//\allowbreak
+Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining.
+\newblock ACM, 2016: 785-794.
+
+\bibitem[Ke et~al.(2017)Ke, Meng, Finley, Wang, Chen, Ma, Ye, and Liu]{ke2017lightgbm}
+KE G, MENG Q, FINLEY T, et~al.
+\newblock Lightgbm: A highly efficient gradient boosting decision tree\allowbreak[C]//\allowbreak
+Advances in Neural Information Processing Systems.
+\newblock 2017: 3146-3154.
+
+\bibitem[Prokhorenkova et~al.(2018)Prokhorenkova, Gusev, Vorobev, Dorogush, and Gulin]{prokhorenkova2018catboost}
+PROKHORENKOVA L, GUSEV G, VOROBEV A, et~al.
+\newblock Catboost: Unbiased boosting with categorical features\allowbreak[C]//\allowbreak
+Advances in Neural Information Processing Systems.
+\newblock 2018: 6638-6648.
+
+\bibitem[Ng(2016)]{ng2016nutshell}
+NG A.
+\newblock Machine learning yearning\allowbreak[R].
+\newblock Stanford University, 2016.
+
+\bibitem[Wolpert(1997)]{wolpert1992stacked}
+WOLPERT D~H.
+\newblock Stacked generalization\allowbreak[J].
+\newblock Neural Networks, 1997, 5\allowbreak (2): 241-259.
+
+\bibitem[Akiba et~al.(2019)Akiba, Sano, Yanase, Ohta, and Koyama]{akiba2019optuna}
+AKIBA T, SANO S, YANASE T, et~al.
+\newblock Optuna: A next-generation hyperparameter optimization framework\allowbreak[J].
+\newblock Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery Data Mining, 2019: 2623-2631.
+
+\end{thebibliography}

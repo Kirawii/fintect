@@ -1,0 +1,8 @@
+assume cs:codesg,ds:datasg,ss:stacksg
+stacksg segment
+    db 3 dup(0)
+stacksg ends
+datasg segment
+    fs db 'swufe$'
+datasg ends
+codesg
